@@ -871,7 +871,7 @@ p {
 	/* ---------- menu ---------- */
 
 	.menu {
-		background: rgba(255, 255, 255, 0.1);
+		background-color: rgba(255, 255, 255, 0.05);
 		padding: 50px 10px 30px;
 		position: absolute;
 		width: 100vw;
@@ -892,10 +892,12 @@ p {
 
 	.menu__link {
 		color: var(--color-text);
+		font-weight: 700;
+		letter-spacing: 0.05em;
 	}
 
 	.header-top-box.active .menu {
-		background: rgba(255, 255, 255, 0.9);
+		background-color: rgba(220, 220, 220, 0.95);
 		left: 0;
 		transform: translate(0);
 	}
